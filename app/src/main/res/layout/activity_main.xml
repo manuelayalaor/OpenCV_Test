@@ -6,13 +6,15 @@
     android:layout_height="match_parent"
     tools:context="com.example.thetardis.opencv_test.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <org.opencv.android.JavaCameraView
+            android:layout_width="1080px"
+            android:layout_height="720px"
+            android:id="@+id/java_camera_view"
+        />
+
+        /* app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" */
 
 </android.support.constraint.ConstraintLayout>
